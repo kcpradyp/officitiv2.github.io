@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'icofont';
+  src: url('../fonts/icofont.eot?p44ib3');
+  src: url('../fonts/icofont.eot?p44ib3#iefix') format('embedded-opentype'),
+    url('../fonts/icofont.ttf?p44ib3') format('truetype'),
+    url('../fonts/icofont.woff?p44ib3') format('woff'),
+    url('../fonts/icofont.svg?p44ib3#icofont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icofont' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: '\e908';
+}
+.icon-viber:before {
+  content: '\e900';
+  color: #665cac;
+}
+.icon-whatsapp:before {
+  content: '\e901';
+  color: #25d366;
+}
+.icon-arrow-left:before {
+  content: '\e902';
+}
+.icon-arrow-right:before {
+  content: '\e903';
+}
+.icon-facebook:before {
+  content: '\e904';
+}
+.icon-linkedin:before {
+  content: '\e905';
+}
+.icon-mail:before {
+  content: '\e909';
+}
+.icon-map-pin:before {
+  content: '\e90a';
+}
+.icon-phone-o:before {
+  content: '\e906';
+}
+.icon-twitter:before {
+  content: '\e907';
+}

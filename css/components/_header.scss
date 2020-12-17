@@ -1,0 +1,17 @@
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
