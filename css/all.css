@@ -116,6 +116,66 @@ a:hover {
   color: #fff;
 }
 
+.btn-alt {
+  border-color: #f0a500;
+  background-color: #f0a500;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+}
+
+.btn-alt.btn-lg {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  text-transform: uppercase;
+}
+
+.btn-alt:hover {
+  border-color: #bd8200;
+  background-color: #bd8200;
+  color: #fff;
+}
+
+.btn-alt-1 {
+  border-color: #ffdf00;
+  background-color: #ffdf00;
+  color: #696969;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+}
+
+.btn-alt-1.btn-lg {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  text-transform: uppercase;
+}
+
+.btn-alt-1:hover {
+  border-color: #f5d600;
+  background-color: #f5d600;
+  color: #696969;
+}
+
+.btn-alt-2 {
+  border-color: #ffef00;
+  background-color: #ffef00;
+  color: #696969;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+}
+
+.btn-alt-2.btn-lg {
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  text-transform: uppercase;
+}
+
+.btn-alt-2:hover {
+  border-color: #f5e500;
+  background-color: #f5e500;
+  color: #696969;
+}
+
 .read-more {
   color: #211d1e;
   font-weight: 600;

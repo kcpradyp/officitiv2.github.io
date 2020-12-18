@@ -19,6 +19,57 @@
     color: #fff;
   }
 }
+.btn-alt {
+  border-color: #f0a500;
+  background-color: #f0a500;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+  &.btn-lg {
+    font-size: 1.2rem;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+  }
+  &:hover {
+    border-color: darken($color: #f0a500, $amount: 10%);
+    background-color: darken($color: #f0a500, $amount: 10%);
+    color: #fff;
+  }
+}
+.btn-alt-1 {
+  border-color: #ffdf00;
+  background-color: #ffdf00;
+  color: #696969;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+  &.btn-lg {
+    font-size: 1.2rem;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+  }
+  &:hover {
+    border-color: darken($color: #ffdf00, $amount: 2%);
+    background-color: darken($color: #ffdf00, $amount: 2%);
+    color: #696969;
+  }
+}
+.btn-alt-2 {
+  border-color: #ffef00;
+  background-color: #ffef00;
+  color: #696969;
+  padding: 0.5rem 2rem;
+  border-radius: 0.1rem;
+  &.btn-lg {
+    font-size: 1.2rem;
+    padding: 0.75rem 2.5rem;
+    text-transform: uppercase;
+  }
+  &:hover {
+    border-color: darken($color: #ffef00, $amount: 2%);
+    background-color: darken($color: #ffef00, $amount: 2%);
+    color: #696969;
+  }
+}
 .read-more {
   color: #211d1e;
   font-weight: 600;
